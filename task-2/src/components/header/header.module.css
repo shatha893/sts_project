@@ -1,0 +1,14 @@
+.Toolbar{ 
+    background-color:#df6a6a !important; 
+    /* font-size:larger !important; */
+}
+
+.title{
+    text-decoration:none;
+    color:white;
+    margin-left:10% !important;
+}
+
+.button{
+    margin-right:10% !important;
+}

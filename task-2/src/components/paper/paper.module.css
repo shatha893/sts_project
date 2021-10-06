@@ -1,0 +1,28 @@
+.box{
+    margin:30px !important;
+    padding:1% !important;
+    text-align:left;
+    position:relative;
+}
+
+.viewButton,.deleteButton{
+    float:right;
+    /* position:absolute;
+    top:20px;
+    bottom:-20px; */
+}
+
+.deleteButton{
+    color:red !important;
+}
+
+.box h3{
+    min-height:30px;
+    max-height:30px;
+}
+
+.subtitle{
+    color:gray;
+    min-height:50px;
+    max-height:50px;
+}
