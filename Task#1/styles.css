@@ -41,7 +41,7 @@ body{
     font-size: 20px;
 }
 
-@media (max-width: 800px) {  
+@media (max-width: 751px) {  
     .welcome_container{
         font-size:20px;
     } 
@@ -79,9 +79,21 @@ body{
         width:25px;
         height:25px;
     }
+    .footer_mystyles{
+        position:absolute;
+        /* bottom:10px; */
+        background-color:black;
+        padding:3% 40% 3% 40%;
+        color:white;
+        text-align:center;
+    }
+    
+    .container_mystyles{
+        position:relative;
+    }
 }
 
-@media(max-width: 1400px) and (min-width: 700px){
+@media(max-width: 1400px) and (min-width: 751px){
     .welcome_container{
         font-size:20px;
     } 
@@ -119,6 +131,18 @@ body{
         color:white;
         width:30px;
         height:30px;
+    }
+    .footer_mystyles{
+        position:absolute;
+        /* bottom:10px; */
+        background-color:black;
+        padding:3% 40% 3% 40%;
+        color:white;
+        text-align:center;
+    }
+    
+    .container_mystyles{
+        position:relative;
     }
 }
 
