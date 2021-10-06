@@ -62,16 +62,16 @@ body{
     }
 
     .icons{
-        /* background-color:  #0360f7; */
-        width:10px;
-        height:10px;
-        /* padding:1%;
+        background-color:  #0360f7;
+        width:60px;
+        height:60px;
+        padding:3%;
         border-radius:5px;
         position: absolute;
         bottom:85%;
         left:44%;
         right:44%;
-        z-index: 1; */
+        z-index: 1;
     }
 
     .bi_mystyles{
@@ -81,13 +81,57 @@ body{
     }
 }
 
+@media(max-width: 1400px) and (min-width: 700px){
+    .welcome_container{
+        font-size:20px;
+    } 
+    .welcome_container, .other_containers{
+        min-height:10vh;
+    }
+
+    .title{
+        font-size:20px;
+    }
+    .parag{
+        font-size:16px;
+    }
+
+    .second_cont{
+        margin-left:60px;
+        margin-right:-50px;
+    }
+
+    .icons{
+        background-color:  #0360f7;
+        width:65px;
+        height:65px;
+        padding:3.5%;
+        border-radius:5px;
+        position: absolute;
+        top:-15%;
+        bottom:85%;
+        left:43%;
+        right:46%;
+        z-index: 1;
+    }
+
+    .bi_mystyles{
+        color:white;
+        width:30px;
+        height:30px;
+    }
+}
+
+@media(min-width: 1400px){
+
 .icons{
     background-color:  #0360f7;
     width:75px;
     height:75px;
-    padding:4%;
+    padding:3.5%;
     border-radius:5px;
     position: absolute;
+    top:-10%;
     bottom:85%;
     left:44%;
     right:44%;
@@ -111,4 +155,6 @@ body{
 
 .container_mystyles{
     position:relative;
+}
+
 }
