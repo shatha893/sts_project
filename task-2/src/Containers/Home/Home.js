@@ -89,11 +89,11 @@ class Home extends Component{
         <Row>
             <Footer></Footer>
         </Row>
-        
+{/*         
         <EditModal
         paperId={this.state.paperToView}
         show={this.state.showEditModal} 
-        closeModal={this.handleCloseViewModal}/>
+        closeModal={this.handleCloseViewModal}/> */}
         <ViewModal
         paperId={this.state.paperToView}
         show={this.state.showViewModal} 

@@ -106,7 +106,7 @@ class ViewModal extends Component{
         <Modal.Title id="example-custom-modal-styling-title">
           {this.state.fullname}
         </Modal.Title>
-      </Modal.Header>
+        </Modal.Header>
       <Modal.Body>
         <Form>
           <div>Gender</div>
