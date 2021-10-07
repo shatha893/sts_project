@@ -1,5 +1,5 @@
 .box{
-    margin:30px !important;
+    margin-top:30px !important;
     padding:1% !important;
     text-align:left;
     position:relative;
@@ -16,7 +16,8 @@
     color:red !important;
 }
 
-.box h3{
+.box h5{
+    margin-bottom:30px;
     min-height:30px;
     max-height:30px;
 }

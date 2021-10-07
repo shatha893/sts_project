@@ -22,10 +22,10 @@ const SimplePaper = (props) => {
             props.papers.map((paper)=>{
 
                 return( <Paper elevation={2} className={classes.box} key={paper.id}>
-                    <h3>{paper.title}</h3>
-                    <h4 className={classes.subtitle}>{paper.subtitle}</h4>
-                    <Button color="inherit" className={classes.viewButton}>View</Button>
-                    <Button color="inherit" className={classes.deleteButton}>delete</Button>
+                    <h5>{paper.fullname}</h5>
+                    <h6 className={classes.subtitle}>Heard about us from {paper.resource}</h6>
+                    <Button color="inherit" className={classes.viewButton} onClick={()=>props.handleViewClick(paper.id)}>View</Button>
+                    <Button color="inherit" className={classes.deleteButton} onClick={()=>props.handleDelete(paper.id)}>delete</Button>
                 </Paper>);
             })
         }

@@ -5,9 +5,8 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
 
-export default function DenseAppBar() {
+const DenseAppBar = (props)=> {
   return (
     <Box sx={{ flexGrow: 1 }} >
       <AppBar position="static">
@@ -15,9 +14,14 @@ export default function DenseAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className={cssClasses.title}>
             ABC Blog
           </Typography>
-          <Button color="inherit" className={cssClasses.button}>Register</Button>
+          <Button 
+          color="inherit" 
+          className={cssClasses.button}
+          onClick={props.showRegModal}>Add New entry</Button>
         </Toolbar>
       </AppBar>
     </Box>
   );
 }
+
+export default DenseAppBar;
